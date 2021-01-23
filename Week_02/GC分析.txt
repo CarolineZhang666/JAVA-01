@@ -1,0 +1,8 @@
+老师，我基础较差，现在只是把环境搭起来，现在根据PDF预习材料会看JVM的信息，进行分析。
+串行GC（Serial GC）: 单线程执行，应用需要暂停；
+并行GC（ParNew、Parallel Scavenge、Parallel Old）: 多线程并行地执行垃圾回收，
+关注与高吞吐；
+CMS（Concurrent Mark-Sweep）: 多线程并发标记和清除，关注与降低延迟；
+G1（G First）: 通过划分多个内存区域做增量整理和回收，进一步降低延迟；
+ZGC（Z Garbage Collector）: 通过着色指针和读屏障，实现几乎全部的并发执行，几毫秒级别的延迟，线性可扩展；
+下周补这次作业，老师CSDN中真的太多内容了需要吸收。自己加油！
